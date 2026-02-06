@@ -1,13 +1,20 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { Github } from 'lucide-react';
+import { Github } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const menuLinks = (
     <>
-      <li className="mx-2">Home</li>
-      <li className="mx-2">Apps</li>
-      <li className="mx-2">Installation</li>
+      <NavLink to="/" className="mx-2">
+        Home
+      </NavLink>
+      <NavLink to="/apps" className="mx-2">
+        Apps
+      </NavLink>
+      <NavLink to="/installation" className="mx-2">
+        Installation
+      </NavLink>
     </>
   );
 
@@ -18,7 +25,7 @@ function Navbar() {
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
-          <div className="navbar bg-base-100 shadow-sm">
+          <div className="navbar  shadow-sm">
             <div className="navbar-start">
               <div className="dropdown">
                 <div
@@ -51,15 +58,20 @@ function Navbar() {
               </div>
               <a className="btn btn-ghost text-xl flex items-center gap-2">
                 <img src={logo} alt="Logo" className="w-8 h-8" />
-                <span>HERO.IO</span>
+                <span className="font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+                  HERO.IO
+                </span>
               </a>
             </div>
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">{menuLinks}</ul>
             </div>
             <div className="navbar-end">
-              <a className="btn btn-primary"> <Github />
-                Contribute</a>
+              <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+                {" "}
+                <Github />
+                Contribute
+              </a>
             </div>
           </div>
 

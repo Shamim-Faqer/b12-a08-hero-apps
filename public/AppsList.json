@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://i.ibb.co.com/pjPt6KXj/spotify.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs, discover new music, and listen to podcasts.",
+    "size": 125,
+    "reviews": 15200000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 760000 },
+      { "name": "2 star", "count": 1520000 },
+      { "name": "3 star", "count": 3040000 },
+      { "name": "4 star", "count": 4560000 },
+      { "name": "5 star", "count": 9120000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5CyvxHx/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp Inc.",
+    "id": 2,
+    "description": "Simple, reliable, private messaging and calling for free.",
+    "size": 98,
+    "reviews": 85000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1700000 },
+      { "name": "2 star", "count": 2550000 },
+      { "name": "3 star", "count": 8500000 },
+      { "name": "4 star", "count": 17000000 },
+      { "name": "5 star", "count": 56150000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvdmtKYZ/instagram.png",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 3,
+    "description": "Connect with friends, share photos and videos, and explore your interests.",
+    "size": 145,
+    "reviews": 68000000,
+    "ratingAvg": 4.3,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2040000 },
+      { "name": "2 star", "count": 2720000 },
+      { "name": "3 star", "count": 6800000 },
+      { "name": "4 star", "count": 16320000 },
+      { "name": "5 star", "count": 40800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yFWXYBFj/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Discover, watch, and share your favorite videos and music.",
+    "size": 210,
+    "reviews": 120000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2400000 },
+      { "name": "2 star", "count": 3600000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 72000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RT0VHQvm/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 5,
+    "description": "Watch TV shows and movies recommended for you.",
+    "size": 87,
+    "reviews": 32000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 640000 },
+      { "name": "3 star", "count": 3200000 },
+      { "name": "4 star", "count": 6400000 },
+      { "name": "5 star", "count": 21440000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HD2rGvXR/tiktok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Ltd.",
+    "id": 6,
+    "description": "Short-form mobile videos for entertainment and creativity.",
+    "size": 132,
+    "reviews": 75000000,
+    "ratingAvg": 4.2,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 3750000 },
+      { "name": "3 star", "count": 11250000 },
+      { "name": "4 star", "count": 22500000 },
+      { "name": "5 star", "count": 34500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JjbnqW9c/video-call.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "Video conferencing, web conferencing, and webinars.",
+    "size": 154,
+    "reviews": 4300000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 43000 },
+      { "name": "2 star", "count": 86000 },
+      { "name": "3 star", "count": 430000 },
+      { "name": "4 star", "count": 860000 },
+      { "name": "5 star", "count": 3302000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TxDrbM0m/car.png",
+    "title": "Uber - Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 8,
+    "description": "Get a reliable ride in minutes with the Uber app.",
+    "size": 112,
+    "reviews": 28000000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 1680000 },
+      { "name": "2 star", "count": 2240000 },
+      { "name": "3 star", "count": 5600000 },
+      { "name": "4 star", "count": 8400000 },
+      { "name": "5 star", "count": 10080000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hF6DrWsp/snap.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 9,
+    "description": "Share the moment with friends using photos and short videos.",
+    "size": 178,
+    "reviews": 41000000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2460000 },
+      { "name": "2 star", "count": 2870000 },
+      { "name": "3 star", "count": 6150000 },
+      { "name": "4 star", "count": 10250000 },
+      { "name": "5 star", "count": 19320000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Hf2qcmwc/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 10,
+    "description": "Fast and secure messaging app with syncing across devices.",
+    "size": 95,
+    "reviews": 12500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 375000 },
+      { "name": "3 star", "count": 1250000 },
+      { "name": "4 star", "count": 3125000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2Yc9ccKZ/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 11,
+    "description": "Discover recipes, home ideas, style inspiration, and more.",
+    "size": 121,
+    "reviews": 19000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 380000 },
+      { "name": "2 star", "count": 570000 },
+      { "name": "3 star", "count": 1900000 },
+      { "name": "4 star", "count": 4750000 },
+      { "name": "5 star", "count": 11400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vx8ryqng/discord.png",
+    "title": "Discord - Talk, Chat, Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 12,
+    "description": "Voice, video, and text communication for gamers and communities.",
+    "size": 143,
+    "reviews": 8900000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 89000 },
+      { "name": "2 star", "count": 178000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 1780000 },
+      { "name": "5 star", "count": 6253000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wrwBLWkG/reddit.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 13,
+    "description": "The front page of the internet. Browse communities and topics.",
+    "size": 89,
+    "reviews": 6700000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 201000 },
+      { "name": "2 star", "count": 268000 },
+      { "name": "3 star", "count": 1005000 },
+      { "name": "4 star", "count": 1675000 },
+      { "name": "5 star", "count": 3551000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7tBfxvM8/twitter.png",
+    "title": "X (formerly Twitter)",
+    "companyName": "X Corp.",
+    "id": 14,
+    "description": "See what's happening in the world right now with breaking news.",
+    "size": 156,
+    "reviews": 52000000,
+    "ratingAvg": 3.9,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4160000 },
+      { "name": "2 star", "count": 4680000 },
+      { "name": "3 star", "count": 10400000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 19760000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WWwxczwf/communications.png",
+    "title": "Duolingo - Language Lessons",
+    "companyName": "Duolingo",
+    "id": 15,
+    "description": "Learn a new language with game-like lessons and fun characters.",
+    "size": 76,
+    "reviews": 15300000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 153000 },
+      { "name": "2 star", "count": 306000 },
+      { "name": "3 star", "count": 1530000 },
+      { "name": "4 star", "count": 3060000 },
+      { "name": "5 star", "count": 10710000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKmyswk1/paint-canvas.png",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 16,
+    "description": "Create stunning designs, presentations, and social media graphics.",
+    "size": 234,
+    "reviews": 8200000,
+    "ratingAvg": 4.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 41000 },
+      { "name": "2 star", "count": 82000 },
+      { "name": "3 star", "count": 410000 },
+      { "name": "4 star", "count": 1640000 },
+      { "name": "5 star", "count": 6067000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/s9rRV76y/shazam.png",
+    "title": "Shazam: Music Discovery",
+    "companyName": "Apple",
+    "id": 17,
+    "description": "Identify songs playing around you and explore music charts.",
+    "size": 67,
+    "reviews": 4500000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3015000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ns4QL1jp/airbnb.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 18,
+    "description": "Book unique homes and experiences for your next trip.",
+    "size": 189,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 240000 },
+      { "name": "2 star", "count": 360000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2x2qH5k/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "id": 19,
+    "description": "Team communication and collaboration for modern workplaces.",
+    "size": 167,
+    "reviews": 3100000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 31000 },
+      { "name": "2 star", "count": 62000 },
+      { "name": "3 star", "count": 310000 },
+      { "name": "4 star", "count": 775000 },
+      { "name": "5 star", "count": 2108000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zTvfTmQN/twitch.png",
+    "title": "Twitch: Live Game Streaming",
+    "companyName": "Twitch Interactive, Inc.",
+    "id": 20,
+    "description": "Watch live streams, chat with streamers, and discover new content.",
+    "size": 198,
+    "reviews": 5800000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 116000 },
+      { "name": "2 star", "count": 174000 },
+      { "name": "3 star", "count": 870000 },
+      { "name": "4 star", "count": 1740000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fb7LCthQ/tinder.png",
+    "title": "Tinder: Dating & New Friends",
+    "companyName": "Tinder Inc.",
+    "id": 21,
+    "description": "Match, chat, and meet new people in your area or around the world.",
+    "size": 134,
+    "reviews": 27500000,
+    "ratingAvg": 4.0,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 2750000 },
+      { "name": "3 star", "count": 6875000 },
+      { "name": "4 star", "count": 8250000 },
+      { "name": "5 star", "count": 7425000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqZrGRkS/time.png",
+    "title": "Strava: Run, Bike, Hike",
+    "companyName": "Strava Inc.",
+    "id": 22,
+    "description": "Track your runs, bike rides, and other activities with GPS.",
+    "size": 112,
+    "reviews": 3200000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 32000 },
+      { "name": "2 star", "count": 64000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 640000 },
+      { "name": "5 star", "count": 2304000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rKrB3qBc/headset.png",
+    "title": "Audible: Audio Entertainment",
+    "companyName": "Audible, Inc.",
+    "id": 23,
+    "description": "Listen to audiobooks, podcasts, and original audio series.",
+    "size": 98,
+    "reviews": 4100000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 82000 },
+      { "name": "2 star", "count": 123000 },
+      { "name": "3 star", "count": 615000 },
+      { "name": "4 star", "count": 1230000 },
+      { "name": "5 star", "count": 2050000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7t9Ndshz/headset-1.png",
+    "title": "Calm - Sleep, Meditate, Relax",
+    "companyName": "Calm.com, Inc.",
+    "id": 24,
+    "description": "Meditation, sleep stories, and mindfulness exercises.",
+    "size": 145,
+    "reviews": 2900000,
+    "ratingAvg": 4.9,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 14500 },
+      { "name": "2 star", "count": 29000 },
+      { "name": "3 star", "count": 145000 },
+      { "name": "4 star", "count": 580000 },
+      { "name": "5 star", "count": 2173500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YmbFn9K/video-1.png",
+    "title": "Bitwarden Password Manager",
+    "companyName": "Bitwarden",
+    "id": 25,
+    "description": "Secure password manager for storing and auto-filling credentials.",
+    "size": 76,
+    "reviews": 185000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1850 },
+      { "name": "2 star", "count": 3700 },
+      { "name": "3 star", "count": 18500 },
+      { "name": "4 star", "count": 37000 },
+      { "name": "5 star", "count": 132350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93qb27dt/apps.png",
+    "title": "Notion - Notes, Docs, Tasks",
+    "companyName": "Notion Labs, Inc.",
+    "id": 26,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+    "size": 167,
+    "reviews": 950000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 9500 },
+      { "name": "2 star", "count": 19000 },
+      { "name": "3 star", "count": 142500 },
+      { "name": "4 star", "count": 237500 },
+      { "name": "5 star", "count": 565250 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nMGXNnTN/medical-app.png",
+    "title": "Signal Private Messenger",
+    "companyName": "Signal Foundation",
+    "id": 27,
+    "description": "Fast, simple, secure messaging with end-to-end encryption.",
+    "size": 89,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 44000 },
+      { "name": "2 star", "count": 66000 },
+      { "name": "3 star", "count": 330000 },
+      { "name": "4 star", "count": 550000 },
+      { "name": "5 star", "count": 1309000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/t77vM65/food-delivery.png",
+    "title": "Grubhub: Food Delivery",
+    "companyName": "Grubhub",
+    "id": 28,
+    "description": "Order food delivery from local restaurants in your area.",
+    "size": 154,
+    "reviews": 12500000,
+    "ratingAvg": 4.2,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 375000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1875000 },
+      { "name": "4 star", "count": 3750000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2717FLQW/online-shopping.png",
+    "title": "Minecraft",
+    "companyName": "Mojang",
+    "id": 29,
+    "description": "Build, explore, and survive in a blocky, procedurally-generated world.",
+    "size": 245,
+    "reviews": 8500000,
+    "ratingAvg": 4.7,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 170000 },
+      { "name": "3 star", "count": 1275000 },
+      { "name": "4 star", "count": 2125000 },
+      { "name": "5 star", "count": 4950000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DTNXMJk/app.png",
+    "title": "Headspace: Mindful Meditation",
+    "companyName": "Headspace Inc.",
+    "id": 30,
+    "description": "Meditation and sleep exercises for stress reduction and focus.",
+    "size": 123,
+    "reviews": 1800000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 36000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 360000 },
+      { "name": "5 star", "count": 1284000 }
+    ]
+  }
+]
