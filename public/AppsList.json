@@ -1,7 +1,7 @@
 [
   {
     "image": "https://i.ibb.co.com/pjPt6KXj/spotify.png",
-    "title": "Spotify: Music and Podcasts",
+    "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 1,
     "description": "Stream millions of songs, discover new music, and listen to podcasts.",
@@ -19,7 +19,7 @@
   },
   {
     "image": "https://i.ibb.co.com/5CyvxHx/whatsapp.png",
-    "title": "WhatsApp Messenger",
+    "title": "WhatsApp",
     "companyName": "WhatsApp Inc.",
     "id": 2,
     "description": "Simple, reliable, private messaging and calling for free.",
@@ -109,7 +109,7 @@
   },
   {
     "image": "https://i.ibb.co.com/JjbnqW9c/video-call.png",
-    "title": "Zoom Cloud Meetings",
+    "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 7,
     "description": "Video conferencing, web conferencing, and webinars.",
@@ -127,7 +127,7 @@
   },
   {
     "image": "https://i.ibb.co.com/TxDrbM0m/car.png",
-    "title": "Uber - Request a ride",
+    "title": "Uber",
     "companyName": "Uber Technologies, Inc.",
     "id": 8,
     "description": "Get a reliable ride in minutes with the Uber app.",
@@ -199,7 +199,7 @@
   },
   {
     "image": "https://i.ibb.co.com/vx8ryqng/discord.png",
-    "title": "Discord - Talk, Chat, Hang Out",
+    "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 12,
     "description": "Voice, video, and text communication for gamers and communities.",
@@ -235,7 +235,7 @@
   },
   {
     "image": "https://i.ibb.co.com/7tBfxvM8/twitter.png",
-    "title": "X (formerly Twitter)",
+    "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 14,
     "description": "See what's happening in the world right now with breaking news.",
@@ -253,7 +253,7 @@
   },
   {
     "image": "https://i.ibb.co.com/WWwxczwf/communications.png",
-    "title": "Duolingo - Language Lessons",
+    "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 15,
     "description": "Learn a new language with game-like lessons and fun characters.",
@@ -271,7 +271,7 @@
   },
   {
     "image": "https://i.ibb.co.com/xKmyswk1/paint-canvas.png",
-    "title": "Canva: Design, Photo & Video",
+    "title": "Canva",
     "companyName": "Canva",
     "id": 16,
     "description": "Create stunning designs, presentations, and social media graphics.",
@@ -289,7 +289,7 @@
   },
   {
     "image": "https://i.ibb.co.com/s9rRV76y/shazam.png",
-    "title": "Shazam: Music Discovery",
+    "title": "Shazam",
     "companyName": "Apple",
     "id": 17,
     "description": "Identify songs playing around you and explore music charts.",
@@ -343,7 +343,7 @@
   },
   {
     "image": "https://i.ibb.co.com/zTvfTmQN/twitch.png",
-    "title": "Twitch: Live Game Streaming",
+    "title": "Twitch",
     "companyName": "Twitch Interactive, Inc.",
     "id": 20,
     "description": "Watch live streams, chat with streamers, and discover new content.",
@@ -361,7 +361,7 @@
   },
   {
     "image": "https://i.ibb.co.com/Fb7LCthQ/tinder.png",
-    "title": "Tinder: Dating & New Friends",
+    "title": "Tinder",
     "companyName": "Tinder Inc.",
     "id": 21,
     "description": "Match, chat, and meet new people in your area or around the world.",
@@ -379,7 +379,7 @@
   },
   {
     "image": "https://i.ibb.co.com/nqZrGRkS/time.png",
-    "title": "Strava: Run, Bike, Hike",
+    "title": "Strava",
     "companyName": "Strava Inc.",
     "id": 22,
     "description": "Track your runs, bike rides, and other activities with GPS.",
@@ -397,7 +397,7 @@
   },
   {
     "image": "https://i.ibb.co.com/rKrB3qBc/headset.png",
-    "title": "Audible: Audio Entertainment",
+    "title": "Audible",
     "companyName": "Audible, Inc.",
     "id": 23,
     "description": "Listen to audiobooks, podcasts, and original audio series.",
@@ -415,7 +415,7 @@
   },
   {
     "image": "https://i.ibb.co.com/7t9Ndshz/headset-1.png",
-    "title": "Calm - Sleep, Meditate, Relax",
+    "title": "Calm",
     "companyName": "Calm.com, Inc.",
     "id": 24,
     "description": "Meditation, sleep stories, and mindfulness exercises.",
@@ -433,7 +433,7 @@
   },
   {
     "image": "https://i.ibb.co.com/YmbFn9K/video-1.png",
-    "title": "Bitwarden Password Manager",
+    "title": "Bitwarden Password",
     "companyName": "Bitwarden",
     "id": 25,
     "description": "Secure password manager for storing and auto-filling credentials.",
@@ -451,7 +451,7 @@
   },
   {
     "image": "https://i.ibb.co.com/93qb27dt/apps.png",
-    "title": "Notion - Notes, Docs, Tasks",
+    "title": "Notion",
     "companyName": "Notion Labs, Inc.",
     "id": 26,
     "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
@@ -469,7 +469,7 @@
   },
   {
     "image": "https://i.ibb.co.com/nMGXNnTN/medical-app.png",
-    "title": "Signal Private Messenger",
+    "title": "Signal Private",
     "companyName": "Signal Foundation",
     "id": 27,
     "description": "Fast, simple, secure messaging with end-to-end encryption.",
@@ -487,7 +487,7 @@
   },
   {
     "image": "https://i.ibb.co.com/t77vM65/food-delivery.png",
-    "title": "Grubhub: Food Delivery",
+    "title": "Grubhub",
     "companyName": "Grubhub",
     "id": 28,
     "description": "Order food delivery from local restaurants in your area.",
@@ -523,7 +523,7 @@
   },
   {
     "image": "https://i.ibb.co.com/DTNXMJk/app.png",
-    "title": "Headspace: Mindful Meditation",
+    "title": "Headspace",
     "companyName": "Headspace Inc.",
     "id": 30,
     "description": "Meditation and sleep exercises for stress reduction and focus.",
