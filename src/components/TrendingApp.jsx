@@ -18,7 +18,7 @@ function TrendingApp() {
         <div className="cardss pt-12">
           <div className=" mx-auto py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {apps.slice(0, 8).map((app) => (
-              <div>
+              <NavLink to={`/app/${app.id}`}>
                 <div className="card bg-base-100 shadow-sm">
                   <figure className="px-10 pt-10">
                     <img src={app.image} alt="Shoes" className="rounded-xl" />
@@ -36,7 +36,7 @@ function TrendingApp() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </NavLink>
             ))}
           </div>
         </div>
