@@ -6,13 +6,28 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   const menuLinks = (
     <>
-      <NavLink to="/" className="mx-2">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `mx-2 hover:bg-primary-content p-1 ${isActive ? "text-primary border rounded" : "text-base-content"}`
+        }
+      >
         Home
       </NavLink>
-      <NavLink to="/apps" className="mx-2">
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          `mx-2 hover:bg-primary-content p-1 ${isActive ? "text-primary border rounded" : "text-base-content"}`
+        }
+      >
         Apps
       </NavLink>
-      <NavLink to="/installation" className="mx-2">
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          `mx-2 hover:bg-primary-content p-1 ${isActive ? "text-primary border rounded" : "text-base-content"}`
+        }
+      >
         Installation
       </NavLink>
     </>
@@ -25,13 +40,13 @@ function Navbar() {
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
-          <div className="navbar  shadow-sm">
+          <div className="navbar px-4 md:px-12  shadow-sm">
             <div className="navbar-start">
               <div className="dropdown">
                 <div
                   tabIndex={0}
                   role="button"
-                  className="btn btn-ghost lg:hidden"
+                  className="btn btn-ghost hover:bg-primary-content lg:hidden"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,18 +71,25 @@ function Navbar() {
                   {menuLinks}
                 </ul>
               </div>
-              <a className="btn btn-ghost text-xl flex items-center gap-2">
+              <NavLink
+                to="/"
+                className="hover:bg-primary-content flex items-center gap-1 p-1"
+              >
                 <img src={logo} alt="Logo" className="w-8 h-8" />
                 <span className="font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                   HERO.IO
                 </span>
-              </a>
+              </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">{menuLinks}</ul>
             </div>
             <div className="navbar-end">
-              <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+              <a
+                href="https://github.com/Shamim-Faqer"
+                target="_blank"
+                className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+              >
                 {" "}
                 <Github />
                 Contribute

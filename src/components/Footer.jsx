@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,12 +10,15 @@ function Footer() {
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
           {/* ///////////////////////// */}
-          <footer className="footer sm:footer-horizontal bg-[#001931] text-white  p-10">
+          <footer className="footer flex justify-between  sm:footer-horizontal bg-[#001931] text-white px-4 md:px-12  p-10">
             <aside>
-              <a className="text-xl flex items-center gap-2 mt-8">
-                <img src={logo} alt="Logo" className="w-8 h-8" />
-                <span>HERO.IO</span>
-              </a>
+              <NavLink
+                to="/"
+                className="hover:bg-primary-content hover:text-primary rounded flex items-center gap-2 p-1"
+              >
+                <img src={logo} alt="Logo" className="w-12 h-12" />
+                <span className="font-bold">HERO.IO</span>
+              </NavLink>
             </aside>
             <nav>
               <h6 className="footer-title">Social</h6>

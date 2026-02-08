@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function TrendingApp() {
   const [apps, setApps] = useState([]);
@@ -11,11 +12,11 @@ function TrendingApp() {
 
   return (
     <div>
-      <div className="text-center py-8">
+      <div className="text-center py-12 px-6 md:px-12 pb-12">
         <h2>Trending Apps </h2>
         <p>Explore All Trending Apps on the Market developed by us</p>
-        <div className="cardss py-3">
-          <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="cardss pt-12">
+          <div className=" mx-auto py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {apps.slice(0, 8).map((app) => (
               <div>
                 <div className="card bg-base-100 shadow-sm">
@@ -39,7 +40,9 @@ function TrendingApp() {
             ))}
           </div>
         </div>
-        <button className="btn btn-outline btn-primary ">Show All</button>
+        <NavLink to="/apps">
+          <button className="btn btn-outline btn-primary ">Show All</button>
+        </NavLink>
       </div>
     </div>
   );

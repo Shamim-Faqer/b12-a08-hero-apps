@@ -5,9 +5,9 @@ import { FaAppStoreIos } from "react-icons/fa";
 
 function Banner() {
   return (
-    <div className="container bg-base-200 mx-auto px-4 py-10">
+    <div className="reserved">
       <div className="text-center">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 py-12">
           We Build{" "}
           <span className="font-b bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             Productive
@@ -19,15 +19,19 @@ function Banner() {
           simpler, smarter, and more exciting.
         </p>
 
-        <div className="flex justify-center gap-4 mb-10">
-          <button className="btn btn-outline btn-primary">
-            <IoLogoGooglePlaystore />
-            Google Play
-          </button>
-          <button className="btn btn btn-outline btn-primary">
-            <FaAppStoreIos />
-            App store
-          </button>
+        <div className="flex justify-center gap-4 py-12">
+          <a href="https://play.google.com/store/apps" target="_blank">
+            <button className="btn btn-outline btn-primary">
+              <IoLogoGooglePlaystore />
+              Google Play
+            </button>
+          </a>
+          <a href="https://apps.apple.com/us/iphone/apps" target="_blank">
+            <button className="btn btn btn-outline btn-primary">
+              <FaAppStoreIos />
+              App store
+            </button>
+          </a>
         </div>
 
         <img
@@ -36,7 +40,7 @@ function Banner() {
           alt="banner image"
         />
 
-        <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-primary-content p-8 rounded-2xl">
+        <div className=" bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white p-8 rounded-2xl">
           <h2 className="text-2xl font-semibold mb-8">
             Trusted by Millions, Built for You
           </h2>

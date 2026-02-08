@@ -11,14 +11,20 @@ function Apps() {
 
   return (
     <div>
-      <div className="text-center py-8">
-        <h2>Trending Apps </h2>
-        <p>Explore All Trending Apps on the Market developed by us</p>
-        <div className="cardss py-3">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="text-center py-12 mx-12">
+        <h2>Our All Application</h2>
+        <p>
+          Explore All Apps on the Market developed by us.We code for millions
+        </p>
+        <div className="search flex justify-between p-6">
+          <h3 className="search results">132 apps founded</h3>
+          <input type="text" placeholder="Search here..." className="input" />
+        </div>
+        <div className="cardss py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {apps.map((app) => (
               <div>
-                <div className="card bg-base-100 w-96 shadow-sm">
+                <div className="card bg-base-100 shadow-sm">
                   <figure className="px-10 pt-10">
                     <img src={app.image} alt="Shoes" className="rounded-xl" />
                   </figure>
@@ -39,7 +45,6 @@ function Apps() {
             ))}
           </div>
         </div>
-        <button className="btn btn-outline btn-primary ">Show All</button>
       </div>
     </div>
   );
