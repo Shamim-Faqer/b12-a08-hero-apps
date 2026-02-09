@@ -21,7 +21,7 @@ function Banner() {
 
         <div className="flex justify-center gap-4 py-12">
           <a href="https://play.google.com/store/apps" target="_blank">
-            <button className="btn btn-outline btn-primary">
+            <button className="btn btn-outline btn-primary ">
               <IoLogoGooglePlaystore />
               Google Play
             </button>

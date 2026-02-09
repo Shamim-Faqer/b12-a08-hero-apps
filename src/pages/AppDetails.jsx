@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import downloadsIcon from "../assets/icon-downloads.png";
 import ratingsIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
@@ -15,6 +15,7 @@ import {
 function AppDetails() {
   const { id } = useParams();
   const [app, setApp] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/AppsList.json")
@@ -29,6 +30,21 @@ function AppDetails() {
     return (
       <div className="text-center py-20 text-xl font-bold">Loading...</div>
     );
+
+  const handleInstall = (app) => {
+    const installedApps =
+      JSON.parse(localStorage.getItem("installed-apps")) || [];
+
+    const isExist = installedApps.find((item) => item.id === app.id);
+
+    if (!isExist) {
+      const newApps = [...installedApps, app];
+      localStorage.setItem("installed-apps", JSON.stringify(newApps));
+      alert("app installed successfully");
+    } else {
+      alert("this app is already installed");
+    }
+  };
 
   return (
     <div className="container mx-auto">
@@ -61,7 +77,12 @@ function AppDetails() {
           </div>
 
           <div className="py-3">
-            <button className="btn btn-success text-white px-8">Install</button>
+            <button
+              onClick={() => handleInstall(app)}
+              className="btn btn-success text-white px-8"
+            >
+              Install
+            </button>
           </div>
 
           <hr className="my-4" />

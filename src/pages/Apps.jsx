@@ -75,7 +75,9 @@ function Apps() {
                   try another apps
                 </p>
                 <NavLink to="/">
-                  <button className="btn btn-primary">Go Back</button>
+                  <button className="btn btn-outline btn-primary">
+                    Go Back
+                  </button>
                 </NavLink>
               </div>
             )}
