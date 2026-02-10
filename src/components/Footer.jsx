@@ -7,9 +7,7 @@ function Footer() {
     <div>
       <div className="reserved">
         <div className="reserved">
-          {/* ///////////////////////// */}
-          {/* ///////////////////////// */}
-          {/* ///////////////////////// */}
+         
           <footer className="footer flex justify-between  sm:footer-horizontal bg-[#001931] text-white px-4 md:px-12  p-10">
             <aside>
               <NavLink
@@ -69,9 +67,7 @@ function Footer() {
             </aside>
           </footer>
 
-          {/* ///////////////////////// */}
-          {/* ///////////////////////// */}
-          {/* ///////////////////////// */}
+          
         </div>
       </div>
     </div>

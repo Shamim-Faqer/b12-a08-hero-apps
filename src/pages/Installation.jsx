@@ -15,7 +15,7 @@ function Installation() {
   const handleSort = (order) => {
     setSortOrder(order);
     const sortedData = [...installedApps].sort((a, b) => {
-      // parseFloat নিশ্চিত করে যে সাইজ নাম্বার হিসেবেই বিয়োগ হচ্ছে
+     
       const sizeA = parseFloat(a.size);
       const sizeB = parseFloat(b.size);
 
@@ -38,7 +38,7 @@ function Installation() {
 
   return (
     <div className="flex flex-col items-center gap-4 w-full px-4">
-      {/* হেডার সেকশন */}
+
       <div className="my-12 text-center">
         <h2 className="text-3xl font-bold">Your Installed Apps here...</h2>
         <p className="text-gray-500">
@@ -46,7 +46,6 @@ function Installation() {
         </p>
       </div>
 
-      {/* সর্টিং এবং কাউন্টার বার - ফুল উইডথ ফিক্স */}
       <div className="flex justify-between items-center w-full max-w-4xl shadow-lg border rounded-xl py-6 px-8 bg-base-100">
         <div>
           <h3 className="text-xl font-bold">Total: {installedApps.length}</h3>
@@ -66,7 +65,6 @@ function Installation() {
         </div>
       </div>
 
-      {/* অ্যাপ লিস্ট সেকশন */}
       <div className="w-full max-w-4xl mt-8">
         {installedApps.length > 0 ? (
           installedApps.map((app) => (
