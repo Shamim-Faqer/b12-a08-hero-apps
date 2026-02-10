@@ -11,10 +11,14 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { toast } from "react-toastify";
+
+
 
 function AppDetails() {
   const { id } = useParams();
   const [app, setApp] = useState(null);
+  const [isInstalled, setIsInstalled] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -22,7 +26,17 @@ function AppDetails() {
       .then((res) => res.json())
       .then((data) => {
         const singleApp = data.find((item) => item.id === parseInt(id));
+
         setApp(singleApp);
+
+        const installedApps =
+          JSON.parse(localStorage.getItem("installed-apps")) || [];
+
+        const isExist = installedApps.find((item) => item.id === singleApp?.id);
+
+        if (isExist) {
+          setIsInstalled(true);
+        }
       });
   }, [id]);
 
@@ -40,9 +54,10 @@ function AppDetails() {
     if (!isExist) {
       const newApps = [...installedApps, app];
       localStorage.setItem("installed-apps", JSON.stringify(newApps));
-      alert("app installed successfully");
+      setIsInstalled(true);
+      toast.success("app installed successfully");
     } else {
-      alert("this app is already installed");
+      toast.success("this app is already installed");
     }
   };
 
@@ -56,6 +71,7 @@ function AppDetails() {
           <p className="pb-3 text-gray-600 font-medium">
             Developed By: {app.companyName}
           </p>
+
           <hr className="my-2" />
 
           <div className="flex items-center justify-between px-3 py-4 text-center">
@@ -64,11 +80,13 @@ function AppDetails() {
               <p className="text-sm text-gray-500 uppercase">Downloads</p>
               <h2 className="text-lg font-bold">8M</h2>
             </div>
+
             <div>
               <img src={ratingsIcon} alt="ratings" className="mx-auto" />
               <p className="text-sm text-gray-500 uppercase">Ratings</p>
               <h2 className="text-lg font-bold">{app.rating || "4.5"}</h2>
             </div>
+
             <div>
               <img src={reviewIcon} alt="reviews" className="mx-auto" />
               <p className="text-sm text-gray-500 uppercase">Reviews</p>
@@ -79,9 +97,10 @@ function AppDetails() {
           <div className="py-3">
             <button
               onClick={() => handleInstall(app)}
+              disabled={isInstalled}
               className="btn btn-success text-white px-8"
             >
-              Install
+              {isInstalled ? "Installed" : "Install"}
             </button>
           </div>
 
